@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="gdc-soccer-lotterycollector" />
         <module name="springbootexample" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="gdc-soccer-lotterycollector" target="1.8" />
       <module name="springbootexample" target="1.8" />
     </bytecodeTargetLevel>
   </component>
